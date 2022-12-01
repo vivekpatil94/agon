@@ -1,0 +1,148 @@
+.fi-rr-sign-in-alt:before {
+    transform: rotateY(180deg);
+}
+
+.header-top {
+    .line-right {
+        padding-right: 0;
+        padding-left: 35px;
+
+        &:before {
+            right: auto;
+            left: 15px;
+        }
+    }
+}
+
+.icon-arrow-right {
+    background-image: url(../imgs/template/icons/arrow-small-left.svg);
+    background-position: center left 25px;
+
+    &.btn {
+        &:hover {
+            background-image: url(../imgs/template/icons/arrow-small-left-white.svg);
+        }
+    }
+}
+
+.icon-arrow-right-white {
+    background-image: url(../imgs/template/icons/arrow-small-left-white.svg);
+    background-position: center left 25px;
+    padding-right: 32px;
+    padding-left: 56px;
+
+    &.btn {
+        &:hover {
+            background-image: url(../imgs/template/icons/arrow-small-left.svg);
+        }
+    }
+}
+
+.header {
+    .main-header {
+        .header-right {
+            .btn {
+                padding: 18px 18px 18px 42px;
+            }
+        }
+
+        .main-menu {
+            li {
+                a {
+                    text-align: right;
+
+                    i {
+                        display: inline-block;
+                    }
+                }
+
+                &.has-children {
+                    > a::after {
+                        position: absolute;
+                        left: -4px;
+                        top: 15px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.language-switcher-container {
+    .language_bar_list {
+        li {
+            a {
+                img {
+                    margin-left: 5px;
+                }
+            }
+        }
+    }
+}
+
+.icon-triangle {
+    background-image: url(../imgs/template/icons/icon-triangle.svg);
+    background-position: center right;
+}
+
+.comments-area {
+    .thumb {
+        margin-right: 0;
+        margin-left: 20px;
+    }
+}
+
+.progress {
+    span {
+        display: inline-block;
+        padding-right: 0;
+        padding-left: 10px;
+    }
+}
+
+.detail-extralink {
+    .detail-qty {
+        margin: 0 0 15px 6px;
+    }
+}
+
+.color-swatch, .text-swatch {
+    li {
+        &:first-child {
+            margin-right: 0;
+        }
+
+        &:last-child {
+            margin-right: 10px;
+        }
+    }
+}
+
+.lg-outer {
+    direction: ltr;
+}
+
+.deals-countdown {
+    right: auto;
+    left: -20px;
+}
+
+.item-cat {
+    margin-right: 0;
+    margin-left: 20px;
+}
+
+.mr-15 {
+    margin-right: 0 !important;
+    margin-left: 15px !important;
+}
+
+.nav-breadcrumbs {
+    .breadcrumb {
+        ul {
+            li {
+                float: right;
+            }
+        }
+    }
+}
